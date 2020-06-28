@@ -1,0 +1,18 @@
+[package]
+name = "my-neon-fibonacci-lib"
+version = "0.1.0"
+authors = ["ZHAO Jinxiang <zhaojx01@fenbi.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "my_neon_fibonacci_lib"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.0"
+
+[dependencies]
+neon = "0.4.0"

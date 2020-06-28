@@ -1,0 +1,12 @@
+{
+  "name": "cra-electron",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "my-neon-fibonacci-lib": "*"
+  },
+  "devDependencies": {
+    "electron": "^10.0.0-beta.4",
+    "ts-node": "^8.10.2"
+  }
+}
